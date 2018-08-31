@@ -1,3 +1,14 @@
+# 修改package.json  
+在小程序项目package.json中添加(原生小程序不支持npm，请参考mpvue、wepy框架，或其他构建工具)  
+```js
+"dependencies": {
+  // 其他依赖
+  "lodash": "hughfenghen/lodash#npm"
+},
+```
+然后，`yarn install`
+
+------------------------------------
 # lodash
 
 [Site](https://lodash.com/) |
